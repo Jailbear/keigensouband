@@ -4055,7 +4055,8 @@ static void get_exp_from_mon(int dam, monster_type *m_ptr)
 	}
 
 	/* Finally multiply base experience point of the monster */
-	s64b_mul(&new_exp, &new_exp_frac, 0, r_ptr->mexp);
+	/* KBAND: Multiply monster exp here */
+	s64b_mul(&new_exp, &new_exp_frac, 0, r_ptr->mexp * KBAND_EXP_MULT);
 
 	/* Gain experience */
 	gain_exp_64(new_exp, new_exp_frac);

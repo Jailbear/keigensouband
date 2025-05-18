@@ -72,7 +72,7 @@ OBJ = \
 	cmd1.obj cmd2.obj cmd3.obj cmd4.obj cmd5.obj cmd6.obj do-spell.obj \
 	dungeon.obj effects.obj files.obj floors.obj flavor.obj generate.obj \
 	grid.obj hissatsu.obj inet.obj init1.obj init2.obj japanese.obj \
-	load.obj main-win.obj mane.obj melee1.obj melee2.obj mind.obj \
+	kband.obj load.obj main-win.obj mane.obj melee1.obj melee2.obj mind.obj \
 	monster1.obj monster2.obj mspells1.obj mspells2.obj mspells3.obj \
 	mutation.obj snipe.obj hex.obj \
 	obj_kind.obj object1.obj object2.obj racial.obj readdib.obj \

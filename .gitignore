@@ -21,7 +21,9 @@ src/hengband
 src/*.obj
 src/*.res
 src/Gensouband.*
+Gensouband.ini
 Gensouband.exe
+.vs
 
 # Archives
 *.zip

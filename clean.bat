@@ -4,8 +4,6 @@ SET LIB=C:\Borland\BCC55\Lib
 
 cd src
 
-make -f makefile.bcc
-
-move Gensouband.exe ../Gensouband.exe
+make -f makefile.bcc clean
 
 pause Press any key to exit

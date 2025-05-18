@@ -2793,3 +2793,8 @@ extern bool object_is_magic_item(object_type *o_ptr);
 
 //v2.0.20
 extern bool detect_specific_objects(int range, int mode);
+
+
+
+//keigensouband configs
+extern const int KBAND_EXP_MULT;
