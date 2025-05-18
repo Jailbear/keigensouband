@@ -18,6 +18,10 @@ hengband.ini
 .build/
 hengband
 src/hengband
+src/*.obj
+src/*.res
+src/Gensouband.*
+Gensouband.exe
 
 # Archives
 *.zip
